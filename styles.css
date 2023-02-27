@@ -56,3 +56,23 @@
     padding-bottom: 10px;
     color: #b39b8f;
 }
+
+@media screen and (max-width: 1080px){
+    .bottom {
+        margin: 40px auto;
+    }
+
+    .bottom .card {
+        width: 80vw;
+        height: auto;
+        margin: auto;
+    }
+
+    .card li {
+        line-height: 20px;
+    }
+
+    .top h1{
+        margin : 5vh auto 0 auto;
+    }
+}
